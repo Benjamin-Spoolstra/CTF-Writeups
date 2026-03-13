@@ -4,25 +4,6 @@ This is a collection of my writeups and solutions for challenges across various 
 
 ---
 
-## Structure
-
-```
-/
-├── picoctf/
-├── lakera-ai/
-├── ctflearn/
-├── overthewire/
-├── pwn-college/
-├── rootme/
-├── hack-this-site/
-├── vulnhub/
-└── owasp-juice-shop/
-```
-
-Each folder contains writeups organized by challenge name or category.
-
----
-
 ## Platforms
 
 | Platform | Focus | Link |
