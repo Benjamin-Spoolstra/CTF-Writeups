@@ -4,7 +4,7 @@ This is a collection of my writeups and solutions for challenges across various 
 
 ---
 
-## 📁 Structure
+## Structure
 
 ```
 /
@@ -23,7 +23,7 @@ Each folder contains writeups organized by challenge name or category.
 
 ---
 
-## 🌐 Platforms
+## Platforms
 
 | Platform | Focus | Link |
 |---|---|---|
@@ -39,7 +39,7 @@ Each folder contains writeups organized by challenge name or category.
 
 ---
 
-## 📝 Writeup Format
+## Writeup Format
 
 Each writeup follows this general structure:
 
@@ -61,10 +61,6 @@ Step-by-step walkthrough.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 These writeups are for **educational purposes only**. Do not use any techniques here on systems you do not own or have explicit permission to test.
-
----
-
-*Happy hacking! 🔐*
