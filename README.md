@@ -17,7 +17,8 @@ This is a collection of my writeups and solutions for challenges across various 
 | **Hack This Site** | Web / Realism Missions | [hackthissite.org](https://www.hackthissite.org) |
 | **VulnHub** | Boot2Root / VM-based | [vulnhub.com](https://www.vulnhub.com) |
 | **OWASP Juice Shop** | Web App Security | [owasp.org/juice-shop](https://owasp.org/www-project-juice-shop) |
-
+| **OSINT Industries** | OSINT | [ctf.osint.industries/) |
+| **WiFi Challenge** | Wireless Security | [lab.wifichallenge.com/) |
 ---
 
 ## Writeup Format
