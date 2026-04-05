@@ -56,7 +56,7 @@ The factors were:
 
 #### Reconstructing the Private Key and Decrypting using Python
 
-With the prime factors known, the private exponent can be recovered by computing Euler's totient from all factors, then taking the modular inverse of \(e\) modulo \(\phi(n)\). Once \(d\) is known, the ciphertext can be decrypted back into the original message.
+With the prime factors known, the private exponent can be recovered by computing Euler's totient from all factors, then taking the modular inverse of \(e\) modulo \(phi(n)\). Once \(d\) is known, the ciphertext can be decrypted back into the original message.
 
 The Python script used was:
 
