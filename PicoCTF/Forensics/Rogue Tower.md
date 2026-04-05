@@ -19,13 +19,13 @@ This challenge involved analyzing a packet capture from a suspicious cellular to
 
 ### Solution
 
-#### Step 1: Download the PCAP
+#### Download the PCAP
 
 I started by downloading the provided network capture and opening it in Wireshark for analysis. The capture contained DNS lookups, HTTP registration traffic, and several `POST /upload` requests that stood out as likely exfiltration traffic.
 
 <img width="1919" height="866" alt="Step1" src="https://github.com/user-attachments/assets/b5f51d1b-496b-400a-8328-9419f27ffda8" />
 
-#### Step 2: Locate the IMSI
+#### Locate the IMSI
 
 The first important clue was in the HTTP `GET /api/register` request. In the packet details, the `User-Agent` header included the device IMSI, which was needed later as the XOR key source.
 
@@ -43,7 +43,7 @@ From this, I extracted the XOR key used in CyberChef:
 76578566
 ```
 
-#### Step 3: Reconstruct the Split Payload
+#### Reconstruct the Split Payload
 
 The next part was to inspect the repeated HTTP `POST /upload` requests. Each request carried only a small chunk of data, and the hint confirmed that the exfiltrated data was split across multiple HTTP POSTs.
 
@@ -63,7 +63,7 @@ The screenshots show the payload being delivered in multiple chunks rather than 
 <img width="1919" height="1021" alt="step3-5" src="https://github.com/user-attachments/assets/0b90112e-31d2-4eaa-907f-2f57f283016b" />
 <img width="1919" height="1021" alt="step3-6" src="https://github.com/user-attachments/assets/23ef099a-4290-416d-80e4-c480c91a3387" />
 
-#### Step 4: Decode in CyberChef
+#### Decode in CyberChef
 
 After combining the Base64 string, I pasted it into CyberChef and applied the following operations:
 
