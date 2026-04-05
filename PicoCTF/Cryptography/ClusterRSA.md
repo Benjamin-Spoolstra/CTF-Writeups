@@ -85,8 +85,8 @@ The screenshot below shows the successful script output after decryption.
 
 ### Tools Used
 
-- `Python` for modular inverse and RSA decryption.
-- `FactorDB` for factoring the multi-prime RSA modulus.
+- `Python` --- for modular inverse and RSA decryption.
+- `FactorDB` --- for factoring the multi-prime RSA modulus.
 
 ### Flag
 
