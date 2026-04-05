@@ -15,19 +15,21 @@
 
 This challenge presents an RSA-encrypted message and hints that the modulus was built from more than the usual two primes. The goal is to factor the modulus, rebuild the private key parameters, and decrypt the ciphertext to recover the flag.
 
+---
+
 ### Solution
 
 #### Downloading RSA-encrypted Message
 
-The challenge starts with a downloadable message file containing the RSA values needed to solve the problem. The screenshot below shows the challenge prompt and confirms that the task is centered on decrypting an RSA-encrypted message.
+The challenge starts with a downloadable message file containing the RSA values needed to solve the problem. I see that the challenge description discusses a "crowded" encryption and that someone got "greedy" with the encryption. This likely means that the task is centered on decrypting an multi-prime RSA-encrypted message.
 
-[image:4]
+<img width="1919" height="862" alt="step1" src="https://github.com/user-attachments/assets/e11e88e6-ca6c-461d-948b-6db04c31bcec" />
 
 #### Viewing the RSA Parameters
 
-After opening the message file, the important values are the modulus \(n\), public exponent \(e\), and ciphertext \(ct\). The screenshot below shows those values extracted from the file and used directly in the decryption script.
+After opening the message file, the important values are the modulus \(n\), public exponent \(e\), and ciphertext \(ct\). These are the core components of an RSA encryption algorithm and can be used to recover the private key assuming the modulus can be factored.
 
-[image:2]
+<img width="1426" height="726" alt="step2" src="https://github.com/user-attachments/assets/abf86502-f612-469e-b0fc-61b462ff344d" />
 
 The values were:
 
@@ -39,9 +41,9 @@ ct = 389166277110546748888814065724980655820424858098241439872130372941197582756
 
 #### Factoring the Modulus
 
-The hint strongly suggests a clustered or multi-prime RSA setup, so the modulus was submitted to FactorDB to recover its prime factors. The screenshot below shows the factorization result listing four prime factors rather than the usual two.
+The hint strongly suggests a clustered or multi-prime RSA setup, so I submitted to FactorDB to recover its prime factors. The result below shows the factorization is four prime factors rather than the usual two.
 
-[image:3]
+<img width="1919" height="867" alt="step3" src="https://github.com/user-attachments/assets/edda4414-061a-4f47-912b-07a7c9e9420f" />
 
 The factors were:
 
@@ -52,7 +54,7 @@ The factors were:
 9671406556917033398454847
 ```
 
-#### Reconstructing the Private Key
+#### Reconstructing the Private Key and Decrypting using Python
 
 With the prime factors known, the private exponent can be recovered by computing Euler's totient from all factors, then taking the modular inverse of \(e\) modulo \(\phi(n)\). Once \(d\) is known, the ciphertext can be decrypted back into the original message.
 
@@ -79,7 +81,7 @@ print(flag)
 
 The screenshot below shows the successful script output after decryption.
 
-[image:5]
+<img width="1919" height="867" alt="step4" src="https://github.com/user-attachments/assets/298f08b4-4d53-41e5-b0de-2ce710a5d103" />
 
 ### Tools Used
 
