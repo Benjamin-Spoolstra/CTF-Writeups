@@ -92,5 +92,4 @@ The screenshot below shows the successful script output after decryption.
 
 ```text
 picoCTF{mul71_rsa_c5d0a11c}
-picoCTF{mul71_rsa_c5d0a11c}
 ```
