@@ -11,17 +11,19 @@
 
 ---
 
-## ClusterRSA - Overview
+### Overview
 
 This challenge presents an RSA-encrypted message and hints that the modulus was built from more than the usual two primes. The goal is to factor the modulus, rebuild the private key parameters, and decrypt the ciphertext to recover the flag.
 
-### Step 1: Downloading RSA-encrypted Message
+### Solution
+
+#### Downloading RSA-encrypted Message
 
 The challenge starts with a downloadable message file containing the RSA values needed to solve the problem. The screenshot below shows the challenge prompt and confirms that the task is centered on decrypting an RSA-encrypted message.
 
 [image:4]
 
-### Step 2: Viewing the RSA Parameters
+#### Viewing the RSA Parameters
 
 After opening the message file, the important values are the modulus \(n\), public exponent \(e\), and ciphertext \(ct\). The screenshot below shows those values extracted from the file and used directly in the decryption script.
 
@@ -35,7 +37,7 @@ e = 65537
 ct = 3891662771105467488888140657249806558204248580982414398721303729411975827561400201060615350757604497
 ```
 
-### Step 3: Factoring the Modulus
+#### Factoring the Modulus
 
 The hint strongly suggests a clustered or multi-prime RSA setup, so the modulus was submitted to FactorDB to recover its prime factors. The screenshot below shows the factorization result listing four prime factors rather than the usual two.
 
@@ -50,7 +52,7 @@ The factors were:
 9671406556917033398454847
 ```
 
-### Step 4: Reconstructing the Private Key
+#### Reconstructing the Private Key
 
 With the prime factors known, the private exponent can be recovered by computing Euler's totient from all factors, then taking the modular inverse of \(e\) modulo \(\phi(n)\). Once \(d\) is known, the ciphertext can be decrypted back into the original message.
 
@@ -81,11 +83,13 @@ The screenshot below shows the successful script output after decryption.
 
 ### Tools Used
 
-- Python 3.8+ for modular inverse and RSA decryption.
-- FactorDB for factoring the multi-prime RSA modulus.
+- `Python` for modular inverse and RSA decryption.
+- `FactorDB` for factoring the multi-prime RSA modulus.
 
 ### Flag
 
 ```text
+picoCTF{mul71_rsa_c5d0a11c}
+```
 picoCTF{mul71_rsa_c5d0a11c}
 ```
