@@ -121,10 +121,10 @@ After the final round, the server returned the flag and the script printed it su
 
 ### Tools Used
 
-- `netcat` — Used to inspect the challenge service manually.
-- `Python socket` — Used to automate the remote connection and responses.
-- `Python re` — Used to parse the decimal secret and final flag.
-- `Python time` — Used to pause briefly before reading the final server output.
+- `netcat`: Used to inspect the challenge service manually.
+- `Python socket`: Used to automate the remote connection and responses.
+- `Python re`: Used to parse the decimal secret and final flag.
+- `Python time`: Used to pause briefly before reading the final server output.
 
 ### Flag
 ```text
