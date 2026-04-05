@@ -4,9 +4,9 @@
 
 ### Challenge Details
 
-> **Platform:** PicoCTF
-> **Category:** `Forensics`
-> **Difficulty:** Medium
+> **Platform:** PicoCTF  
+> **Category:** `Forensics`  
+> **Difficulty:** Medium  
 > **Points:** 300
 
 ---
