@@ -10,7 +10,7 @@ This is a collection of my writeups and solutions for challenges across various 
 |---|---|---|
 | **picoCTF** | General / Beginner-friendly | [picoctf.org](https://picoctf.org) |
 | **Lakera AI** | AI/ML Security | [lakera.ai](https://lakera.ai) |
-| **Hack This Site** | Web / Realism Missions | [hackthissite.org](https://www.hackthissite.org) |
+| **OverTheWire** | Linux Wargames | [overthewire.org](https://overthewire.org/wargames/) |
 | **OWASP Juice Shop** | Web App Security | [owasp.org/juice-shop](https://owasp.org/www-project-juice-shop) |
 ---
 
