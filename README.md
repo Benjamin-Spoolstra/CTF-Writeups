@@ -8,10 +8,12 @@ This is a collection of my writeups and solutions for challenges across various 
 
 | Platform | Focus | Link |
 |---|---|---|
-| **picoCTF** | General / Beginner-friendly | [picoctf.org](https://picoctf.org) |
+| **CloudGoat** | AWS/Cloud Security | [CloudGoat Repo](https://github.com/rhinosecuritylabs/cloudgoat) |
+| **CyLab Academy (formerly picoCTF)** | General / Beginner-friendly | [cylabacademy.org](https://cylabacademy.org/) |
 | **Lakera AI** | AI/ML Security | [lakera.ai](https://lakera.ai) |
 | **OverTheWire** | Linux Wargames | [overthewire.org](https://overthewire.org/wargames/) |
 | **OWASP Juice Shop** | Web App Security | [owasp.org/juice-shop](https://owasp.org/www-project-juice-shop) |
+| | |
 ---
 
 ## Writeup Format
