@@ -4,7 +4,7 @@
 
 ### Challenge Details
 
-> **Platform:** PicoCTF  
+> **Platform:** CyLab Academy   
 > **Category:** `Forensics`  
 > **Difficulty:** Medium  
 > **Points:** 300
