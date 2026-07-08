@@ -4,7 +4,7 @@
 
 ### Challenge Details
 
-> **Platform:** PicoCTF  
+> **Platform:** CyLab Academy 
 > **Category:** `Cryptography`  
 > **Difficulty:** Medium  
 > **Points:** 400
