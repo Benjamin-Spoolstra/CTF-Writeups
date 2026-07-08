@@ -4,7 +4,7 @@
 
 ### Challenge Details
 
-> **Platform:** CyLab Academy 
+> **Platform:** CyLab Academy                  
 > **Category:** `Reverse Engineering`  
 > **Difficulty:** Medium  
 > **Points:** 200
