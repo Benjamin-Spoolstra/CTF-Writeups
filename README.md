@@ -10,6 +10,7 @@ This is a collection of my writeups and solutions for challenges across various 
 |---|---|---|
 | **CloudGoat** | AWS/Cloud Security | [CloudGoat Repo](https://github.com/rhinosecuritylabs/cloudgoat) |
 | **CyLab Academy (formerly picoCTF)** | General / Beginner-friendly | [cylabacademy.org](https://cylabacademy.org/) |
+|**GOAD**| Active Directory Security | [GOAD Repo](https://github.com/Orange-Cyberdefense/GOAD) |
 | **Lakera AI** | AI/ML Security | [lakera.ai](https://lakera.ai) |
 | **OverTheWire** | Linux Wargames | [overthewire.org](https://overthewire.org/wargames/) |
 | **OWASP Juice Shop** | Web App Security | [owasp.org/juice-shop](https://owasp.org/www-project-juice-shop) |
