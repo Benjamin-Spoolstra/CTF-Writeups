@@ -4,7 +4,7 @@
 
 ### Challenge Details
 
-> **Platform:** PicoCTF  
+> **Platform:** CyLab Academy 
 > **Category:** `Reverse Engineering`  
 > **Difficulty:** Medium  
 > **Points:** 200
