@@ -11,8 +11,7 @@
 
 ---
 
-### Overview
----
+### Overview 
 
 This challenge manipulates a remote service to reference its internal file system rather than pinging the Google DNS IP address like it's supposed to.
 
