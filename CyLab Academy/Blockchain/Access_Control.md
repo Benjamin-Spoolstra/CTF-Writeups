@@ -28,9 +28,9 @@ When it comes to blockchain CTFs there is usually a vulnerability in the contrac
 
 <img width="1719" height="876" alt="Screenshot 2026-08-16 215155" src="https://github.com/user-attachments/assets/ea2947de-004a-47d4-996e-aa3b70937ec1" />
 
-In this challenge the vulnerability arises from allowing any public user to change the owner of the flag to themselves and simply read out the contents from memory once the owner change is processed.
+In this challenge the vulnerability arises from allowing any public user to change the owner of the flag to themselves, and read out the contents from memory once the owner change is processed.
 
-After identifying the vulnerability the last step is to create a Python exploit script that reaches out to the node, changes the owner to the custom address of the user, and trigger the solve function to read the flag contents.
+After identifying the vulnerability the last step is to create a Python exploit script that reaches out to the node, changes the owner to the custom address of the user, and triggers the solve function to read the flag contents.
 
 To assemble this script the player needs the ABI (Application Binary Interface) of the contract so that specific functions can be called in the desired order. To find the ABI the player compiles the provided contract in Ethereum's web-based [Remix IDE](https://remix.ethereum.org/) platform to retrieve the ABI.
 
@@ -99,7 +99,7 @@ print("Flag:", flag)
 After running the script the flag is retrieved in the output.
 <img width="1716" height="875" alt="Screenshot 2026-08-16 215808" src="https://github.com/user-attachments/assets/54cc16dd-3b36-4bf0-a067-00bbc2fc15d7" />
 
-Overall this challenge was a bit difficult to understand if it's your first blockchain challenge, but it's relatively easy to grasp the core vulnerability and how it's triggered over RPC connections.
+Overall this challenge was a bit difficult to understand if it's your first blockchain challenge, but it's relatively easy to grasp the core vulnerability, and how it's triggered over RPC connections.
 
 ### Tools Used
 
