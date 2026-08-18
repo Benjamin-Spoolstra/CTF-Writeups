@@ -6,8 +6,8 @@
 
 > **Platform:** CyLab Academy  
 > **Category:** `Blockchain`  
-> **Difficulty:** Medium 
-> **Points:** 400
+> **Difficulty:** Medium
+>  **Points:** 400
 
 ---
 
