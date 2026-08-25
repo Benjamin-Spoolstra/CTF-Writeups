@@ -4,7 +4,7 @@
 
 ### Challenge Details
 
-> **Platform:** OWASP Juice Shop 
+> **Platform:** OWASP Juice Shop                                     
 > **Category:** `Web Exploitation`  
 > **Difficulty:** Medium
 ---
