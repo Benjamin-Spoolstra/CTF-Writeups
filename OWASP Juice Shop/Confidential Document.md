@@ -18,9 +18,9 @@ Attackers can potentially utilize the information exfiltrated from directory lis
 
 ### Solution
 
-To start this challenge it's clear to an attacker that the `/ftp` directory can be found by going to it directly in the URL bar. 
+To start this challenge it's clear to an attacker that the `/ftp` directory can be found by going to it directly.
 
-But it's important to understand the vulnerability underlying this challenge.
+However, it's important to understand the vulnerability underlying this challenge.
 
 If web servers have directory listing enabled it exposes potentially sensitive, internal files to unauthenticated, external users on the public internet. 
 
