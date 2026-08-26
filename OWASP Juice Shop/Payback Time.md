@@ -37,7 +37,7 @@ Finally, the attacker can checkout, and receive a credit to their account for th
 
 <img width="1721" height="876" alt="Screenshot 2026-08-26 152037" src="https://github.com/user-attachments/assets/e825741f-3c3f-4261-923d-d0ffa9ebc169" />
 
-The vulnerability in this challenge results from a lack of server-side item amount validations, which allows attackers can drain funds from the application.
+The vulnerability in this challenge results from a lack of server-side item amount validations, which allows attackers to arbitrarily drain funds from the application.
 
 ## Tools Used
 - `Burp Suite` - a popular, commercial web application proxy that allows for industry-grade web application security testing
