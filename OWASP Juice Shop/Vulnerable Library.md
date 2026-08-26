@@ -12,6 +12,7 @@
 ### Overview
 
 This challenge demonstrates vulnerabilities that can arise from using outdated libraries and dependencies in application codebases. It directly corresponds to the [A03:2025 Software Supply Chain Failures](https://owasp.org/Top10/2025/A03_2025-Software_Supply_Chain_Failures/) category on the OWASP Top 10. By utilizing a poisoned null byte attack attackers can retrieve a copy of the packages backup, and analyze it using automated software composition analysis (SCA) to identify well-known critical vulnerabilities within outdated dependencies. The goal of this challenge is to analyze the application's dependencies and submit a report informing the shop owners of their use of vulnerable, outdated dependences. 
+
 ---
 
 ### Solution
