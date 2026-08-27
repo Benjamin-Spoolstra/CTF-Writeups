@@ -39,6 +39,7 @@ The new token must be assembled from encoding the header and body of the forged 
 
 ### Header Portion
 <img width="1718" height="876" alt="Screenshot 2026-08-27 152305" src="https://github.com/user-attachments/assets/beca50f4-2970-4aa2-b328-0a7490bff8c6" />
+
 ### Body Portion
 <img width="1717" height="871" alt="Screenshot 2026-08-27 152323" src="https://github.com/user-attachments/assets/6b6cc45b-d17e-42d7-b842-f018c472f293" />
 <img width="1715" height="877" alt="Screenshot 2026-08-27 152349" src="https://github.com/user-attachments/assets/ef742ca0-5f48-4ad3-8023-8fc5dce0db17" />
