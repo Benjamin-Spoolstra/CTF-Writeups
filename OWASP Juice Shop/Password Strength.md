@@ -34,3 +34,6 @@ After confirming the password from the brute forcing an attacker can login as th
 This challenge demonstrates the need to use strong passwords on highly-privileged accounts. Ideally, strong passwords are ones that are more than 12-16 characters in length with a mix of capital letters, lowercase letters, numbers, and special symbols that aren't easily guessable.
 
 If you want a creative way to check if you're password is strong try searching for it through the wordlists featured on `Seclists`. If it's included in any of those wordlists or a combination of such you should probably change it.
+
+## Tools Used
+- `ffuf` - a popular, open-source, web application fuzzing tool written in Go
