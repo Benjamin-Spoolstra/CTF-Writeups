@@ -1,26 +1,26 @@
 ### Level 0: 
-**Solution**: 
+**Solution**:       
 **Commands**:
 1. ls
 2. cat readme
 **Password**: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-### Level 1: 
-**Solution**: 
+### Level 1:      
+**Solution**:    
 **Commands**:
 1. ls
 2. cat ~/-
 **Password**: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
-### Level 2: 
-**Solution**: 
+### Level 2:     
+**Solution**:     
 **Commands**:
 1. ls
 2. cat ~/-- spaces\ in\ this\ filename
 **Password**: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx 
 
-### Level 3: 
-**Solution**: 
+### Level 3:    
+**Solution**:     
 **Commands**:
 1. ls -la
 2. cd ~/inhere
@@ -30,7 +30,7 @@
 **Password**: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 ### Level 4: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cd ~/inhere
@@ -40,7 +40,7 @@
 **Password**: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 ### Level 5: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cd ~/inhere
@@ -52,7 +52,7 @@
 **Password**: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 ### Level 6: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. find / -type f -user bandit7 -group bandit6 -size 33c  
@@ -60,42 +60,42 @@
 **Password**: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj 
 
 ### Level 7: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. grep "millionth" ~/data.txt
 **Password**: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 ### Level 8: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. sort ~/data.txt | uniq -u
 **Password**: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 ### Level 9: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. strings -a ~/data.txt | grep "="
 **Password**: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 ### Level 10: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. base64 -d ~/data.txt
 **Password**: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 ### Level 11: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. cat ~/data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 **Password**: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 ### Level 12: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. cd /tmp
@@ -127,7 +127,7 @@
 **Password**: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 ### Level 13: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private .
@@ -137,21 +137,21 @@
 **Password**: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 ### Level 14: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. nc localhost 30000
 **Password**: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
  
 ### Level 15: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. ncat --ssl localhost 30001
 **Password**: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 ### Level 16: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. nmap -p 31000-32000 localhost
@@ -164,28 +164,28 @@
 **Password**: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD 
 
 ### Level 17: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. diff --suppress-common-lines passwords.old passwords.new
 **Password**: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
 ### Level 18: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ssh -p 2220 bandit18@bandit.labs.overthewire.org 'cat readme'
 2. enter password
 **Password**: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
 ### Level 19: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. ~/bandit20-do cat /etc/bandit_pass/bandit20
 **Password**: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 ### Level 20: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1234 &
@@ -195,7 +195,7 @@
 **Password**: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 ### Level 21: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cd /etc/cron.d
@@ -206,7 +206,7 @@
 **Password**: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 ### Level 22: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cd /etc/cron.d
@@ -217,7 +217,7 @@
 **Password**: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 ### Level 23: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cd /etc/cron.d
@@ -236,7 +236,7 @@ EOF
 **Password**: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 ### Level 24: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2.
@@ -260,7 +260,7 @@ EOF
 **Password**: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
 ### Level 25: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cat /etc/passwd | grep bandit26
@@ -277,7 +277,7 @@ EOF
 **Password**: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
 
 ### Level 26: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. scp -P 2220 bandit25@bandit.labs.overthewire.org:bandit26.sshkey .
 2. Input password
@@ -292,7 +292,7 @@ EOF
 **Password**: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
 ### Level 27: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. On local Machine: nano ~/.ssh/config
@@ -311,7 +311,7 @@ Host bandit
 **Password**: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
 
 ### Level 28: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. On local Machine: nano ~/.ssh/config
@@ -332,7 +332,7 @@ Host bandit
 **Password**: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
 
 ### Level 29: 
-**Solution**: 
+**Solution**:   
 **Commands**:
 1. ls -la
 2. On local Machine: nano ~/.ssh/config
@@ -354,8 +354,9 @@ Host bandit
 9. git log
 10. git show 4a8f414d4587ca65b6f9512bf690ca0d885e8933
 **Password**: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
 ### Level 30: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. On local Machine: nano ~/.ssh/config
@@ -377,7 +378,7 @@ Host bandit
 **Password**: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
 
 ### Level 31: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. On local Machine: nano ~/.ssh/config
@@ -403,7 +404,7 @@ Host bandit
 **Password**: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
 
 ### Level 32: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. $0
 2. ls -la
@@ -411,7 +412,7 @@ Host bandit
 **Password**: tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
 
 ### Level 33: 
-**Solution**: 
+**Solution**:    
 **Commands**:
 1. ls -la
 2. cat README.txt
